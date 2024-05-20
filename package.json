@@ -1,0 +1,17 @@
+{
+  "name": "express-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+    },
+  "engines": {
+     "node": ">=18.18.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
