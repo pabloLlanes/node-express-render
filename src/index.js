@@ -14,6 +14,14 @@ app.post('/test', (req, res) => {
     res.json({ message: 'Datos recibidos', data });
 });
 
+app.get('/hola', (req, res) => {
+    res.json({ message: "Hola Cursada 77i" });
+});
+
+app.get('/adios', (req, res) => {
+    res.json({ message: "Adios Cursada 77i" });
+});
+
 
 const port = process.env.PORT || 10000;
 
